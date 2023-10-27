@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Register from "./Components/Register"
+import Category from "./Components/Category";
 
 function App() {
 
@@ -7,6 +8,10 @@ function App() {
     {
       path: "/",
       element: <Register />
+    },
+    {
+      path:"/genre",
+      element: <Category />
     }
   ])
 
