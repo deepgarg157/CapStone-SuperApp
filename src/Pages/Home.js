@@ -1,7 +1,11 @@
+import SignUpFrom from "../Components/Home/SignUpForm";
+import Banner from "../Components/Home/Banner"
+
 const Home = ()=>{
     return(
-        <div>
-            Home Page
+        <div className="flex">
+        <Banner/>
+        <SignUpFrom/>
         </div>
     )
 }
