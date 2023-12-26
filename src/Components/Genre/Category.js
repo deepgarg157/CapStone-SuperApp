@@ -63,7 +63,7 @@ const Category = () => {
   const [lengthError, setLengthError] = useState(false);
   const navigate = useNavigate();
   const handleSignUp = () => {
-    if (categories.length < 3) {
+    if (categories.length <= 3) {
       setLengthError(true);
       return;
     } else {
@@ -84,9 +84,9 @@ const Category = () => {
             setCategories={setCategories}
           />
           {lengthError ? (
-            <p className={styles.error}>Please choose at least 3</p>
-          ) : (
             <></>
+          ) : (
+            <p className={styles.error}>Please choose at least 3</p>
           )}
         </div>
       </div>
