@@ -1,4 +1,4 @@
-import BackgroundImage from "..//../assests/page1_bg.png";
+import BackgroundImage from "../../assets/page1_bg.png";
 import styles from "./Banner.module.css";
 
 const Banner = () => {

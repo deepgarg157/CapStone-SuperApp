@@ -1,9 +1,10 @@
-const Genre = ()=>{
-    return(
-        <div>
-            Genre Page
-        </div>
-    )
-}
+import Category from "../Components/Genre/Category";
+const Genre = () => {
+  return (
+    <>
+      <Category />
+    </>
+  );
+};
 
 export default Genre;
